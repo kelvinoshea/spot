@@ -1,0 +1,967 @@
+/* Website */
+
+@font-face {
+    font-family: 'nexa_boldregular';
+    src: url('fonts/nexa_free_bold-webfont.eot');
+    src: url('fonts/nexa_free_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/nexa_free_bold-webfont.woff2') format('woff2'),
+         url('fonts/nexa_free_bold-webfont.woff') format('woff'),
+         url('fonts/nexa_free_bold-webfont.ttf') format('truetype'),
+         url('fonts/nexa_free_bold-webfont.svg#nexa_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'nexa_lightregular';
+    src: url('fonts/Nexa_Free_Light-webfont.eot');
+    src: url('fonts/Nexa_Free_Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Nexa_Free_Light-webfont.woff2') format('woff2'),
+         url('fonts/Nexa_Free_Light-webfont.woff') format('woff'),
+         url('fonts/Nexa_Free_Light-webfont.ttf') format('truetype'),
+         url('fonts/Nexa_Free_Light-webfont.svg#nexa_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/** Gravity font **/
+
+@font-face {
+    font-family: 'gravitybold';
+    src: url('fonts/gravity-bold-webfont.woff2') format('woff2'),
+         url('fonts/gravity-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gravitybook';
+    src: url('fonts/gravity-book-webfont.woff2') format('woff2'),
+         url('fonts/gravity-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gravitylight';
+    src: url('fonts/gravity-light-webfont.woff2') format('woff2'),
+         url('fonts/gravity-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gravityregular';
+    src: url('fonts/gravity-regular-webfont.woff2') format('woff2'),
+         url('fonts/gravity-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gravityultralight';
+    src: url('fonts/gravity-ultralight-webfont.woff2') format('woff2'),
+         url('fonts/gravity-ultralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/** end Gravity font **/
+
+
+
+html {
+	font-size: 16px;
+	
+}
+
+html p {
+	font-family: 'gravitybook', 'Arial', sans-serif;
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+
+
+
+html h1, html h2, html h3, html h4, html h5, html h6 {
+	font-family: 'nexa_boldregular', sans-serif;
+    color: #FFFFFF;
+}
+
+
+
+
+
+section .container, section .bg-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: inherit;
+    height: inherit;
+    box-sizing: border-box;
+}
+
+
+body {
+	width: 100vw;
+	overflow-x: hidden;
+}
+
+
+
+
+/********** First Section ************/
+
+
+
+
+.gradient {
+	width: 80vw;
+	height: 100vh;
+  	background: -webkit-linear-gradient(right,rgba(61,68,77,0),rgba(61,68,77,1)); /*Safari 5.1-6*/
+  	background: -o-linear-gradient(left,rgba(61,68,77,0),rgba(61,68,77,1)); /*Opera 11.1-12*/
+	background: -moz-linear-gradient(left,rgba(61,68,77,0),rgba(61,68,77,1)); /*Fx 3.6-15*/
+  	background: linear-gradient(to left, rgba(61,68,77,0), rgba(61,68,77,1)); /*Standard*/
+}
+
+
+
+#spotLogo {
+    width: 60px;
+}
+
+#spotText {
+    width: 150px;
+    margin: 0px 0px 0px 20px;
+}
+
+.overlay {
+    background-image: url(../images/black-horizontal-stripes.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    pointer-events: none;
+    opacity: 0.4;
+    background-repeat: repeat;
+}
+
+
+
+/******** Second Section **********/
+
+	/** Headset **/
+
+.headsetContainer {
+	background-color: #F5F6F7;
+    height: 900px;
+    width: 100vw;
+}
+
+#headsetImage {
+    width: 80%;
+	padding: 50px 0px 70px 0px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#headsetImage img {
+    width: 100%;
+}
+
+.headsetTextContainer {
+	background-color: #3BB54A;
+    height: 100%;
+
+}
+
+.headsetTextContainer p {
+	font-size: 1rem;
+	text-align: center;
+}
+
+.headsetContainer h2 {
+	padding: 20px 0px 20px 0px; 
+	font-size: 2.5rem;
+}
+
+
+.featuresText1, .featuresText2, .featuresText3 {
+    color: #3D444D;
+    font-family: 'open_sansregular', Arial, sans-serif;
+}
+
+
+.featuresRow {
+    margin: 30px 0px 30px 0px;
+}
+
+
+	/** Icons **/
+
+.iconContainer {
+	background-color: #3BB54A;
+    width: 100vw;
+	height: auto;
+    padding: 20px;
+}
+
+.iconGrid {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.iconContainer H3, .iconContainer p {
+	color: #FFFFFF;
+	padding: 20px 0px 0px 0px;
+	
+}
+
+.iconContainer p {
+	text-align: center;
+	padding: 0px 70px 10px 70px;
+}
+
+.iconContainer .row {
+	margin: 30px 0px 30px 0px;
+}
+
+.bottomIconRow {
+	
+	padding-bottom: 40px;
+}
+
+
+
+
+	/** HeadsetUI **/
+
+.img2Content {
+    position: relative;
+    z-index: 2;
+    
+}
+
+
+
+#img1 {
+    position: relative;
+    background: url(../images/tutorial.jpg) no-repeat center;
+    height: 80vh;
+    width: 100vw;
+    background-attachment: fixed;
+	background-size: cover;
+}
+
+.tutImgContainer {
+    position: relative;
+    height: 150vh;
+    width: 100vw;
+    background-attachment: fixed;
+    
+}
+
+.tutImgContainer img {
+    width: 100vw
+    
+}
+
+.explanation {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 22vh;
+    
+}
+
+#img2 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: url(../images/tutorial2.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+    
+}
+
+
+#img2Explanation {
+    
+    background-color: #3BB54A;
+    
+}
+
+#img3 {
+    background: url(../images/tutorial3.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+   
+}
+
+    
+#img3Explanation {
+    
+
+    background-color: #EDD310;
+    
+}
+
+#img4 {
+	background: url(../images/tutorial4.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#img4Explanation {
+    
+
+    background-color: #D93420;
+    
+}
+
+#img5 {
+    background: url(../images/tutorial5.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#img5Explanation {
+    
+    background-color: #1E79FF;
+    
+}
+
+#img6 {
+    background: url(../images/tutorial6.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+    
+}
+
+#img6Explanation {
+    
+    background-color: #3BB54A;
+    
+}
+
+.explanationRelative {
+    position: relative;
+    height: 22vh;
+    
+    
+}
+
+.explanationTextContainer {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.explanationTextContainer p {
+    font-size: 1.35rem;
+    
+}
+
+.tutRelative {
+    position: relative;
+}
+
+.tutContent {
+    position: static;
+    top: 0;
+    
+}
+
+
+
+
+
+.headsetUI {
+	height: 100vh;
+}
+
+.headsetUI img {
+	height: 100vh;
+}
+
+
+.circle {
+    position: relative;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+
+.setsReps {}
+
+
+.greyText {
+    color: #313133;
+}
+
+
+
+
+	/** Mobile UI Background Image **/
+
+.mobileUIbg {
+	
+	height: 75vh;
+    width: 100vw;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 100;
+
+	
+}
+
+#mobileUIbgImage {
+	
+	background: url(../images/mobile-hand-tall.JPG) no-repeat center;
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: inherit;
+    height: inherit;
+    box-sizing: border-box;
+	background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+	/** mobileUI **/
+
+.mobileUI {
+	height: 80vh;
+    width: 100vw;
+	background-color: #3BB54A;
+    overflow: hidden;
+    background: url(../images/mobile-hand-tall.JPG) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -999;
+}
+
+.iphone {
+    height:
+}
+
+#iphoneImage {
+    position: relative;
+    z-index: 5;
+    pointer-events: none;
+}
+
+.screens {
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    display: inline;
+	position: absolute;
+	top: 87px;
+	left: 0;
+}
+
+.screen {
+    z-index: 1;
+    position: relative;
+    
+}
+
+
+.mobileUIContent {
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.mobileUIoverlay {
+    width: 100vw;
+	height: 100vh;
+    background-color: rgba(61,68,77,.6);
+}
+
+
+
+.mobileExplanation h2 {
+    cursor: pointer;
+	color: #FFFFFF;
+	opacity: .4;
+}
+
+.mobileExplanation p {
+	color: #FFFFFF;
+	opacity: .4;
+}
+
+
+.mobileRelative {
+    position: relative;
+    height: 80vh;
+    
+}
+
+.mobileContainer {
+    width: 100vw;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.active > h2 {
+	opacity: 1;
+	transition: 0.6s;
+}
+
+.active > p {
+	opacity: 1;
+	transition: 0.6s;
+}
+
+.mobileExplanation p:hover {
+    cursor: pointer;
+}
+
+	/** obtainSection **/
+
+.obtainSection h3{
+	color: #3BB54A;
+}
+
+.obtainSection h5{
+	color: #3D444D;
+}
+
+.image-logo-container {
+	line-height: 160px;
+}
+
+.linksContainer {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.obtainSection img {
+    
+    width: 120px;
+    margin: 10px 0px 10px 0px;
+    
+}
+
+
+#mobileUIGrid {
+    width: 50
+}
+
+#obtainGrid {
+    width: 40%;
+    margin: auto;
+}
+
+.explanationGrid {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#headsetGrid {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+#introGrid {
+    width: 40%
+}
+
+#headsetTextContainer {
+	background-color: #3BB54A;
+    height: 100%;
+
+
+}
+
+#headsetTextGrid {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#videoBg {
+    z-index: -9999;
+
+    
+}
+
+#headerH2 {
+    z-index: 
+}
+
+#headercontainer {
+    z-index: 1000;
+    width: 60vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 50px;
+}
+
+#introText {
+    font-size: 6rem;
+}
+
+#insideContainer {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.responsiveImage {
+    display: none;
+}
+
+
+#img3ui {
+    background: url(../images/tutorial3.png) no-repeat center;
+    background-attachment: fixed;
+    background-size: contain;
+    
+}
+
+#img4ui {
+    background: url(../images/tutorial4.png) no-repeat center;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+#img5ui {
+    background: url(../images/tutorial5.png) no-repeat center;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+#img6ui {
+    background: url(../images/tutorial6.png) no-repeat center;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+#mobileBg {
+    visibility: hidden;
+    height: 100vh;
+    width: 100vw;
+    background: url(../images/mobileBGimage.jpg) no-repeat center;
+    position: absolute;
+    right: 0;
+}
+
+footer {
+    margin: 20px 0px 0px 0px;
+}
+
+/** media queries **/
+
+@media screen and (max-width: 992px) {
+    
+    body {
+        height: 100%
+    }
+    
+    #mobileBg {
+        visibility: visible;
+    }
+    
+    .responsiveImage {
+        background-color: aqua;
+        display: block
+ 
+    }
+    
+    #headsetGrid {
+        padding-top: 0px;
+    }
+
+    
+    .gradient {
+        display: none;
+    }
+    
+    
+    #introText {
+        font-size: 4rem;
+    }
+    
+    #headercontainer {
+        width: 90%;
+        margin: 10px;
+    }
+    
+    #headsetGrid {
+        width: 100%;
+    }
+    
+    .headsetContainer {
+        height: 2
+    }
+ 
+    #headsetTextGrid {
+        width: 70%
+    }
+    
+    
+    .explanationGrid {
+        width: 70%;
+
+    }
+    
+    
+    .explanation {
+        height: auto;
+        position: relative
+    }
+    
+    #obtainGrid {
+        width: 80%;
+    }
+    
+    #img1 {
+        display: none;
+    }
+    
+    #img2, #img3, #img4, #img5, #img6 {
+        background: none;
+        
+    }
+    
+    
+    #img2 {
+        height: 100%;
+    }
+    
+    #img3ui, #img4ui, #img5ui, #img6ui {
+       background: none;
+    }
+    
+    .tutImgContainer {
+        height: 100%;
+        
+    }
+    
+    
+    .mobileUI {
+        height: 100%;
+    }
+    
+    .mobileUIoverlay {
+        height: 100%;
+    }
+    
+   
+    
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    #headsetTextGrid {
+        width: 90%;
+    }
+    
+    .iconGrid {
+        width: 100%
+    }
+    
+    .iconContainer p {
+        padding: 0;
+    }
+    
+    .iconContainer {
+        margin-top: 50px;
+    }
+    
+    #headsetGrid {
+        width: 100%;
+    }
+    
+    #headsetImage {
+        width: 90%;
+    }
+    
+    #introText {
+        font-size: 2.5rem;
+        position: absolute;
+        top: 60vh
+    }
+    
+    #headercontainer {
+        width: 90%;
+    }
+    
+    #insideContainer {
+        height: 100vh;
+    }
+    
+       .headsetContainer {
+        height: 500px;
+    }
+    
+    
+    .headsetContainer H2 {
+        font-size: 2rem;
+    }
+    
+    
+    
+    #featuresRowId {
+        display: none;
+    }
+    
+    .explanationGrid {
+        width: 90%;
+
+    }
+    
+    .explanationTextContainer p {
+        font-size: 1rem;
+    }
+    
+
+    
+    .iphone {
+/*        width: 250px;*/
+        margin: auto;
+        margin-right: auto;
+    }
+    
+    .screens {
+
+        
+    }
+    
+    .progressText, .guidanceText {
+        font-size: 1.5rem;
+    }
+    
+    .mobileExplanation p {
+        font-size: .9rem;
+        
+    }
+    
+     .mobileRelative {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    
+     #spotLogo {
+
+         width: 40px;
+         position: absolute;
+         top: 10px;
+         
+
+    }
+    
+    #spotText {
+        width: 120px;
+        position: absolute;
+        left: 30px;
+        top: 10px
+        
+    }
+    
+    .mobileUI {
+        height: 900px;
+    }
+    
+    #mobileBg {
+        background-size: cover;
+    }
+    
+    footer {
+        
+        font-size: 0.7rem;
+    }
+    
+    .obtainSection img {
+        width: 100px
+    }
+    
+    
+    #progress, #guidance {
+        margin: 20px;
+    }   
+    
+    .obtainSection h3 {
+        font-size: 1.4rem;
+    }
+    
+    .icons {
+        width: 100px;
+        
+        
+    }
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+#repsonsiveImg2 {
+    width: 100vw;
+}
+
+@media screen and (max-width: 667px) {
+    
+    .iconContainer {
+        margin-top: 0;
+    }
+    
+}
