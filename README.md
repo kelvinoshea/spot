@@ -1,4 +1,4 @@
-# spot
+# Spot
 Spot marketing site
 
 Assignment for Interface Design subject @ QUT
